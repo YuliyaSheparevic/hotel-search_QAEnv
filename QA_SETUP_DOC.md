@@ -1,5 +1,5 @@
 To ensure the environment supports manual testing, the setup process is extended to include all necessary elements for running the tests:
-1. List of tools, dependencies, and versions:
+1. **List of tools, dependencies, and versions**:
 Tool Versions:
 
 Flutter SDK: 3.32.2
@@ -18,7 +18,7 @@ Install Xcode and configure the iOS Simulator (macOS only) (https://apps.apple.c
 Install Patrol (https://pub.dev/packages/patrol/versions).
 Install Maestro (https://github.com/mobile-dev-inc/maestro/releases)
 
-2. Install Necessary Tools - details:
+2. **Install Necessary Tools - details:**
 To test and work with the hotel_booking Flutter application, install the following dependencies and tools:
 
 Core Tools:
@@ -43,7 +43,7 @@ Optional Tools for Automated Testing:
 Patrol (to perform end-to-end testing for Flutter applications).
 Maestro (for cross-platform E2E testing scenarios).
 
-3. Configure Android Emulator
+3. **Configure Android Emulator**
  - Open Android Studio and go to AVD Manager (Tools > Device Manager).
  - Create a new Android Emulator:
 Device: Samsung Galaxy S25 / Pixel 5 or another device.
@@ -53,7 +53,7 @@ Verify Emulator Availability via Flutter: Run the command:
      flutter devices
 The emulator should appear in the list of connected devices.
 
-4. Configure iOS Simulator (For macOS Users)
+4. **Configure iOS Simulator (For macOS Users)**
  - Launch iOS Simulator:
 Open Xcode > Preferences > Components and install your desired simulator version (e.g., iOS 16.4 for iPhone 14).
 - Start the simulator:
@@ -62,7 +62,7 @@ Open Xcode > Preferences > Components and install your desired simulator version
       flutter devices
 The simulator should appear in the list of connected devices.
 
-5. Clone and Build the Application
+5. **Clone and Build the Application**
  - Clone the repository and navigate to the project:
       git clone https://github.com/akshdeep-singh/hotel_booking
       cd hotel_booking
@@ -77,7 +77,7 @@ The simulator should appear in the list of connected devices.
  - Test the build by running the app:
       flutter run
 
-6. Run Testing Commands:
+6. **Running Tests**
  - for unit tests: 
        flutter test
  - for integration tests:
