@@ -1,0 +1,16 @@
+To ensure the environment supports  manual testing, the setup process is extended to include all necessary elements for running the tests:
+1. List of tools, dependencies, and versions:
+Tool Versions:
+
+Flutter SDK: 3.10.0
+Dart: 2.19.0
+Android Studio: 2022.3.1
+Android Emulator: API Level 31 (Android 12)
+Xcode: 14.3.0 (iOS 16.4)
+Patrol: 0.15.0
+Maestro: 1.10.0
+
+Tool Installation:
+Install Flutter from flutter.dev (https://flutter.dev/) .
+Install Android Studio and set up AVD Manager for emulators.
+Install Xcode and configure the iOS Simulator (macOS only).
