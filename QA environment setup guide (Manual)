@@ -77,4 +77,9 @@ The simulator should appear in the list of connected devices.
  - Test the build by running the app:
       flutter run
 
+6. Run Testing Commands:
+ - for unit tests: 
+       flutter test
+ - for integration tests:
+       flutter drive --target=integration_test/hotel_search_tests.dart
 
