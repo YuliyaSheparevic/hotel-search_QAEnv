@@ -1,24 +1,26 @@
 To ensure the environment supports manual testing, the setup process is extended to include all necessary elements for running the tests:
 1. **List of tools, dependencies, and versions**:
+
 Tool Versions:
 
-Flutter SDK: 3.32.2
-Generate API key in SerpAPI (https://serpapi.com/) 
-Dart: 3.8.1
-Android Studio: 2024.3.2.15
-Android Emulator: API Level 34 (Android 14)
-Xcode: 16.4  (iOS 18.5)
-Patrol: 3.15.2  
-Maestro: 1.40.3
+- Flutter SDK: 3.32.2
+- Generate API key in SerpAPI (https://serpapi.com/) 
+- Dart: 3.8.1
+- Android Studio: 2024.3.2.15
+- Android Emulator: API Level 34 (Android 14)
+- Xcode: 16.4  (iOS 18.5)
+- Patrol: 3.15.2  
+- Maestro: 1.40.3
 
 Tool Installation:
-Install Flutter from flutter.dev (https://flutter.dev/) .
-Install Android Studio and set up AVD Manager for emulators (https://developer.android.com/studio/install?hl=ru) .
-Install Xcode and configure the iOS Simulator (macOS only) (https://apps.apple.com/us/app/xcode/id497799835?mt=12) .
-Install Patrol (https://pub.dev/packages/patrol/versions).
-Install Maestro (https://github.com/mobile-dev-inc/maestro/releases)
+- Install Flutter from flutter.dev (https://flutter.dev/) .
+- Install Android Studio and set up AVD Manager for emulators (https://developer.android.com/studio/install?hl=ru) .
+- Install Xcode and configure the iOS Simulator (macOS only) (https://apps.apple.com/us/app/xcode/id497799835?mt=12) .
+- Install Patrol (https://pub.dev/packages/patrol/versions).
+- Install Maestro (https://github.com/mobile-dev-inc/maestro/releases)
 
 2. **Install Necessary Tools - details:**
+   
 To test and work with the hotel_booking Flutter application, install the following dependencies and tools:
 
 Core Tools:
@@ -51,7 +53,7 @@ Android version:  API Level 34 (Android 14) or higher.
 Save the setup and launch the emulator.
 Verify Emulator Availability via Flutter: Run the command:
      flutter devices
-The emulator should appear in the list of connected devices.
+.The emulator should appear in the list of connected devices.
 
 4. **Configure iOS Simulator (For macOS Users)**
  - Launch iOS Simulator:
@@ -60,7 +62,7 @@ Open Xcode > Preferences > Components and install your desired simulator version
       open -a Simulator
  - Verify Simulator Availability via Flutter: Run the command:
       flutter devices
-The simulator should appear in the list of connected devices.
+.The simulator should appear in the list of connected devices.
 
 5. **Clone and Build the Application**
  - Clone the repository and navigate to the project:
